@@ -10,7 +10,6 @@ def merge_sort(arr):
         # Recursive calls for both halves
         merge_sort(left_half)
         merge_sort(right_half)
-
         # Merge the sorted halves
         i = j = k = 0
         while i < len(left_half) and j < len(right_half):
